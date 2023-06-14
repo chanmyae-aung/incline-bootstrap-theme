@@ -4,7 +4,7 @@ import { BiCaretDown } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <main className="flex w-screen items-center justify-around py-8 border absolute">
+    <main className="flex w-screen items-center justify-around py-8 border-b absolute z-10">
       <div className="flex items-center gap-10">
         <div>
           <h2 className="font-condensed font-bold text-xl">incline.</h2>
